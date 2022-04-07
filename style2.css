@@ -2,7 +2,7 @@ body{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     background-image:url('background1.jpg');
-    font-weight: 600;
+    font-weight: 600; /*bold size font*/
 }
 form{
     margin-top: 200px;
@@ -13,6 +13,7 @@ input{
     border: 2px solid #ccc;
     border-radius: 7px;
     font-size: 19px;
+    width: 300px;
 }
 input[type="text"] {
     width: 300px;
@@ -46,13 +47,13 @@ button{
     border-color: black;
     color: aliceblue;
     background-color: #134b5f;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.4);
-    transition: all 0.3s ease 0s;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.4);/*shadows for the button*/
+    transition: all 0.3s ease 0s;/*Button animation*/
     
 }
 button:hover{
     background-color: darkcyan;
-    box-shadow: 0px 15px 20px rgba(6, 6, 51, 0.979);
+    box-shadow: 0px 15px 20px rgba(6, 6, 51, 0.979);/*increase shadows for the button*/
     transform: translateY(-7px);
-    transition: 0.3s;
+    transition: 0.3s;/*Button animation*/
 }

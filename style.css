@@ -5,7 +5,7 @@ body {
 }
 p.bold{/*Open Sans font can't be bold*/
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-weight: 900;
 }
 h1{
     margin-left: 200px;
@@ -19,7 +19,7 @@ img{
         top: 10px;
         left: 250px;
     height: 15%;/*image size*/
-    border-radius: 100px;
+    border-radius: 100px;/*circle*/
     border-color: #134b5f;
     border-style: dashed;
     
